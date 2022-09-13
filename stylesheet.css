@@ -8,21 +8,6 @@ html {
   font-size: 16px;
 }
 
-.sign-up-bar {
-  background-color: rgb(180, 180, 152);
-  border: 2px solid black;
-  width: 11%;
-  padding: 0.2rem;
-  text-align: center;
-  position: fixed;
-  right: 5px;
-  bottom: 10%;
-}
-
-.button {
-  margin-top: 3px;
-}
-
 .site-header {
   padding: 10px;
   position: absolute;
@@ -40,8 +25,6 @@ html {
     rgb(189, 136, 136),
     #e2c7c1,
     rgb(156, 117, 97),
-    #b37435,
-    rgb(241, 202, 124),
     #e4d79a,
     rgb(190, 190, 126),
     #dbe4ad,
@@ -92,6 +75,43 @@ html {
   }
 }
 
+.nav-menue {
+  font-size: 2rem;
+  background-color: wheat;
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  position: fixed;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 1.5rem;
+  list-style: none;
+  height: 3rem;
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+}
+
+.nav-menue:hover {
+  height: 100%;
+  width: 80%;
+  transition: height 0.5s ease-in;
+  z-index: 10;
+}
+
+.intro-small{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-size: 2rem;
+  color: beige;
+}
+
 .background-image-first-page {
   z-index: -1;
   background: rgba(0, 0, 0, 0.6);
@@ -101,40 +121,43 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
-.intro {
-  position: absolute;
-  bottom: 40%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center;
+
+.sign-up-bar{
+  background-color: red;
 }
+
+@media screen and (min-width: 600px) {
+  .intro {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 1.1rem;
+    color: beige;
+  }
+  .intro-small{
+    display: none;
+  }
+  .sign-up-bar {
+    background-color: rgb(180, 180, 152);
+    border: 2px solid black;
+    width: 11%;
+    padding: 0.2rem;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 10%;
+  }
+  .button {
+    margin-top: 3px;
+  }
+}
+
 
 .container-content {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
   gap: 20px;
-}
-
-.nav-menue {
-  font-size: 3rem;
-  background-color: wheat;
-  display: flex;
-  padding: 0.5rem;
-  flex-direction: column;
-  position: fixed;
-  top: 5px;
-  left: 5px;
-  gap: 1rem;
-  list-style: none;
-  height: 4.5rem;
-  width: 20%;
-  overflow: hidden;
-  border-radius: 5%;
-}
-
-.nav-menue:hover {
-  height: 75%;
-  width: 75%;
-  transition: height 0.5s ease-in;
 }
