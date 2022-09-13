@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.sign-up-bar {
+  background-color: rgb(180, 180, 152);
+  border: 2px solid black;
+  width: 11%;
+  padding: 0.2rem;
+  text-align: center;
+  position: fixed;
+  right: 5px;
+  bottom: 10%;
+}
+
+.button {
+  margin-top: 3px;
+}
+
+.site-header {
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  width: 80%;
+}
+
+.animated_rainbow {
+  font-size: 80px;
+  font-family: Arial Black, Gadget, sans-serif;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(189, 136, 136),
+    #e2c7c1,
+    rgb(156, 117, 97),
+    #b37435,
+    rgb(241, 202, 124),
+    #e4d79a,
+    rgb(190, 190, 126),
+    #dbe4ad,
+    rgb(153, 167, 125),
+    #e0f3cc,
+    rgb(124, 146, 112),
+    #82a17b,
+    rgb(139, 175, 139),
+    #a6d4ae,
+    rgb(169, 211, 183),
+    #84bda0,
+    rgb(151, 190, 177),
+    #82aca5,
+    rgb(145, 194, 194),
+    #89a3a8,
+    rgb(139, 157, 167),
+    #8b9cad,
+    rgb(154, 166, 190),
+    #959bbb,
+    rgb(142, 142, 173),
+    #9590af,
+    rgb(144, 131, 170),
+    #907ea1,
+    rgb(149, 126, 160),
+    #987c9e,
+    rgb(141, 108, 141),
+    #8f768b,
+    rgb(177, 141, 165),
+    #a88496,
+    rgb(153, 123, 133),
+    #967b80,
+    rgb(156, 119, 119)
+  );
+  animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  text-align: center;
+}
+
+@keyframes animatedBackground_a {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -500px 0;
+  }
+}
+
+.background-image-first-page {
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.intro {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.container-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 20px;
+}
+
+.nav-menue {
+  font-size: 3rem;
+  background-color: wheat;
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  gap: 1rem;
+  list-style: none;
+  height: 4.5rem;
+  width: 20%;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.nav-menue:hover {
+  height: 75%;
+  width: 75%;
+  transition: height 0.5s ease-in;
+}
