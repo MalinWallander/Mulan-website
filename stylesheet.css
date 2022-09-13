@@ -82,7 +82,7 @@ html {
   padding: 0.5rem;
   flex-direction: column;
   position: fixed;
-  top: 5px;
+  top: 0%;
   left: 50%;
   transform: translate(-50%);
   gap: 1.5rem;
@@ -123,18 +123,46 @@ html {
 }
 
 .sign-up-bar{
-  background-color: red;
+  background-color: white;
+  border: solid 3px burlywood;
+  text-align: center;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.button{
+  margin: 5px;
+}
+
+.intro{
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: beige;
+}
+
+img{
+  margin: auto;
+  height: 30vh;
 }
 
 @media screen and (min-width: 600px) {
   .intro {
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
     font-size: 1.1rem;
     color: beige;
+    width: 50%;
   }
   .intro-small{
     display: none;
@@ -152,12 +180,9 @@ html {
   .button {
     margin-top: 3px;
   }
+  
 }
 
-
-.container-content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  gap: 20px;
+.container-content{
+  border: solid red 3px;
 }
