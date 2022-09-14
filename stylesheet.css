@@ -212,3 +212,10 @@ body{
   flex-direction: column;
   gap: 3rem;
 }
+
+.mulan-skiss{
+  float: left;
+  width: 7rem;
+  margin: 2rem;
+
+}
