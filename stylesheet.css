@@ -206,4 +206,9 @@ body{
 }
 .container-content{
   border: solid red 3px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
