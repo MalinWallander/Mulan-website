@@ -8,6 +8,10 @@ html {
   font-size: 16px;
 }
 
+body{
+  background-color: beige;
+}
+
 .site-header {
   padding: 10px;
   position: absolute;
@@ -122,6 +126,28 @@ html {
   background-repeat: no-repeat;
 }
 
+.intro {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: beige;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.mulan-and-mushu {
+  width: 90vw;
+  margin: auto;
+}
+
+.mulan-and-sword {
+  width: 90vw;
+  margin: auto;
+}
+
+
 .sign-up-bar{
   background-color: white;
   border: solid 3px burlywood;
@@ -137,32 +163,28 @@ html {
   margin: 5px;
 }
 
-.intro{
-  margin: auto;
-  width: 95%;
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: beige;
-}
-
-img{
-  margin: auto;
-  height: 30vh;
-}
-
 @media screen and (min-width: 600px) {
+  .intro{
+    width: 70%;
+  }
+  
   .intro {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
     font-size: 1.1rem;
     color: beige;
     width: 50%;
+    background-color: transparent;
+  }
+
+  .mulan-and-sword{
+    display: none;
+  }
+  .mulan-and-mushu{
+    display: none;
   }
   .intro-small{
     display: none;
@@ -182,7 +204,6 @@ img{
   }
   
 }
-
 .container-content{
   border: solid red 3px;
 }
