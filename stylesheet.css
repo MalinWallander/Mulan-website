@@ -170,7 +170,7 @@ body{
   
   .intro {
     position: absolute;
-    bottom: 10%;
+    top:10%;    
     left: 50%;
     transform: translate(-50%);
     text-align: center;
@@ -202,6 +202,10 @@ body{
   .button {
     margin-top: 3px;
   }
+
+  .container-content{
+    width: 90%;
+  }
   
 }
 .container-content{
@@ -216,6 +220,12 @@ body{
 .mulan-skiss{
   float: left;
   width: 7rem;
-  margin: 2rem;
+  margin: 1rem;
 
+}
+
+.mulan-skiss2{
+  float: right;
+  width: 30%;
+  margin: 1rem;
 }
