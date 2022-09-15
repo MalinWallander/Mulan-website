@@ -8,7 +8,7 @@ html {
   font-size: 16px;
 }
 
-body{
+body {
   background-color: beige;
 }
 
@@ -106,7 +106,7 @@ body{
   z-index: 10;
 }
 
-.intro-small{
+.intro-small {
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -147,8 +147,7 @@ body{
   margin: auto;
 }
 
-
-.sign-up-bar{
+.sign-up-bar {
   background-color: white;
   border: solid 3px burlywood;
   text-align: center;
@@ -159,18 +158,57 @@ body{
   margin-bottom: 1rem;
   padding: 1rem;
 }
-.button{
+.button {
   margin: 5px;
 }
 
+.container-content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.mulan-skiss {
+  float: left;
+  width: 5rem;
+  margin: 1rem;
+}
+
+.mulan-skiss2 {
+  float: right;
+  width: 7rem;
+  margin: 0.5rem;
+}
+
+.trailer-and-posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space space-between;
+}
+
+.mulan-poster {
+  width: 50%;
+  padding: 0.5rem;
+}
+.mulan-poster2 {
+  width: 50%;
+  padding: 0.5rem;
+}
+
 @media screen and (min-width: 600px) {
-  .intro{
+  .intro {
     width: 70%;
   }
-  
+
   .intro {
     position: absolute;
-    top:10%;    
+    top: 10%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
@@ -180,13 +218,13 @@ body{
     background-color: transparent;
   }
 
-  .mulan-and-sword{
+  .mulan-and-sword {
     display: none;
   }
-  .mulan-and-mushu{
+  .mulan-and-mushu {
     display: none;
   }
-  .intro-small{
+  .intro-small {
     display: none;
   }
   .sign-up-bar {
@@ -203,29 +241,11 @@ body{
     margin-top: 3px;
   }
 
-  .container-content{
-    width: 90%;
+  .container-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
   }
-  
-}
-.container-content{
-  border: solid red 3px;
-  width: 60%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-.mulan-skiss{
-  float: left;
-  width: 7rem;
-  margin: 1rem;
-
-}
-
-.mulan-skiss2{
-  float: right;
-  width: 30%;
-  margin: 1rem;
 }
