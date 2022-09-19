@@ -211,6 +211,30 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+.mulan-and-soldiers {
+  float: right;
+  width: 15rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.avalanche {
+  float: left;
+  width: 15rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.mulan-and-emperor {
+  float: right;
+  width: 15rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .trailer-and-posters {
   display: flex;
   flex-wrap: wrap;
