@@ -169,7 +169,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 3rem;
   margin: auto;
 }
 
@@ -253,6 +253,20 @@ h2 {
 .mulan-poster2 {
   width: 50%;
   padding: 0.5rem;
+}
+
+.circle {
+  height: 3px;
+  position: absolute;
+}
+
+.mushu-cursor {
+  height: 60px;
+}
+
+.fun-facts {
+  border: 5px outset red;
+  padding: 2rem;
 }
 
 /*BIG SCREEN*/
