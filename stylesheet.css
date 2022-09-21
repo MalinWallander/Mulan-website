@@ -255,6 +255,19 @@ h2 {
   padding: 0.5rem;
 }
 
+/*FUN FACTS*/
+
+.fun-facts {
+  background-image: url(Images/mulan-background.jpg);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 5px outset red;
+  padding: 2rem;
+}
+
+/* CURSOR*/
+
 .circle {
   height: 3px;
   position: absolute;
@@ -262,11 +275,7 @@ h2 {
 
 .mushu-cursor {
   height: 60px;
-}
-
-.fun-facts {
-  border: 5px outset red;
-  padding: 2rem;
+  z-index: 20;
 }
 
 /*BIG SCREEN*/
