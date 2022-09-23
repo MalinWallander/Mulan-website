@@ -259,7 +259,7 @@ h2 {
 
 .fun-facts {
   background-image: url(Images/mulan-background.jpg);
-  object-fit: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: 5px outset red;
