@@ -3,84 +3,131 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: lightgreen;
 }
 
 header {
-  margin: 20px;
   padding: 20px;
   font-size: 3rem;
   text-align: center;
 }
 
 .board {
-  display: flex;
-  gap: 2rem;
-  background-color: red;
-  height: 50vw;
+  display: inline-grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto auto;
+  height: 85%;
+  aspect-ratio: 1/1;
+  max-width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.card-1 {
-  background-color: blue;
-  height: 20%;
-  width: 20%;
+.card {
+  aspect-ratio: 1/1;
+  background-image: url(Images/mulan-memory-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
 }
-.card-2 {
-  height: 100px;
-  width: 100px;
+
+.card:hover {
+  cursor: pointer;
 }
-.card-3 {
-  height: 100px;
-  width: 100px;
+
+.card-1-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-7.jpeg);
 }
-.card-4 {
-  height: 100px;
-  width: 100px;
+
+.card-2-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-1.webp);
 }
-.card-5 {
-  height: 100px;
-  width: 100px;
+
+.card-3-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-9.jpg);
 }
-.card-6 {
-  height: 100px;
-  width: 100px;
+
+.card-4-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-3.jpg);
 }
-.card-7 {
-  height: 100px;
-  width: 100px;
+
+.card-5-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-4.jpeg);
 }
-.card-8 {
-  height: 100px;
-  width: 100px;
+
+.card-6-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-9.jpg);
 }
-.card-9 {
-  height: 100px;
-  width: 100px;
+
+.card-7-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-8.jpeg);
 }
-.card-10 {
-  height: 100px;
-  width: 100px;
+
+.card-8-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-5.webp);
 }
-.card-11 {
-  height: 100px;
-  width: 100px;
+
+.card-9-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-6.jpeg);
 }
-.card-12 {
-  height: 100px;
-  width: 100px;
+
+.card-10-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-3.jpg);
 }
-.card-13 {
-  height: 100px;
-  width: 100px;
+
+.card-11-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-1.webp);
 }
-.card-14 {
-  height: 100px;
-  width: 100px;
+
+.card-12-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-7.jpeg);
 }
-.card-15 {
-  height: 100px;
-  width: 100px;
+
+.card-13-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-8.jpeg);
 }
-.card-16 {
-  height: 100px;
-  width: 100px;
+
+.card-14-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-4.jpeg);
+}
+
+.card-15-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-6.jpeg);
+}
+
+.card-16-flipped {
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background-image: url(Images/mulan-memory-5.webp);
 }
