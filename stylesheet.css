@@ -6,11 +6,14 @@
 
 html {
   font-size: 16px;
+  font-family: "Comic Neue", cursive;
 }
 
 body {
   background-color: beige;
 }
+
+/*HEADER*/
 
 .site-header {
   padding: 10px;
@@ -79,6 +82,7 @@ body {
   }
 }
 
+/* MENUE*/
 .nav-menue {
   font-size: 2rem;
   background-color: wheat;
@@ -106,6 +110,11 @@ body {
   z-index: 10;
 }
 
+.nav-menue a:hover {
+  background-color: pink;
+}
+
+/*INTRO*/
 .intro-small {
   position: absolute;
   bottom: 10%;
@@ -147,6 +156,7 @@ body {
   margin: auto;
 }
 
+/* SIGN UP*/
 .sign-up-bar {
   background-color: white;
   border: solid 3px burlywood;
@@ -171,10 +181,12 @@ body {
   justify-content: space-around;
   padding: 3rem;
   margin: auto;
+  gap: 2rem;
 }
 
 h2 {
   text-align: center;
+  text-shadow: 2px 2px pink;
 }
 
 /*PRODUCTION*/
@@ -262,8 +274,10 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 5px outset red;
+  border: 5px outset black;
   padding: 2rem;
+  color: white;
+  border-radius: 5%;
 }
 
 /* CURSOR*/
@@ -276,6 +290,14 @@ h2 {
 .mushu-cursor {
   height: 60px;
   z-index: 20;
+}
+
+/* FOOTER*/
+
+.footer {
+  background-color: wheat;
+  text-align: center;
+  padding: 2rem;
 }
 
 /*BIG SCREEN*/
