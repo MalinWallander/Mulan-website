@@ -13,6 +13,10 @@ body {
   background-color: beige;
 }
 
+.scroll-padding {
+  scroll-padding-top: 150px;
+}
+
 /*HEADER*/
 
 .site-header {
@@ -101,17 +105,19 @@ body {
   margin: 0 auto;
   text-align: center;
   z-index: 10;
+  transition: all 0.5s ease-in;
 }
 
 .nav-menue:hover {
   height: 100%;
   width: 80%;
-  transition: height 0.5s ease-in;
   z-index: 10;
+  transition: all 0.5s ease-in;
 }
 
 .nav-menue a:hover {
   background-color: pink;
+  transition: all 0.5s ease-in;
 }
 
 /*INTRO*/
@@ -162,7 +168,7 @@ body {
   border: solid 3px burlywood;
   text-align: center;
   padding: 1rem;
-  width: 50%;
+  min-width: 15%;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -285,11 +291,13 @@ h2 {
 .circle {
   height: 3px;
   position: absolute;
+  z-index: 11;
+  isolation: isolate;
+  pointer-events: none;
 }
 
 .mushu-cursor {
   height: 60px;
-  z-index: 20;
 }
 
 /* FOOTER*/
