@@ -17,6 +17,10 @@ body {
   scroll-padding-top: 150px;
 }
 
+span {
+  font-style: italic;
+}
+
 /*HEADER*/
 
 .site-header {
