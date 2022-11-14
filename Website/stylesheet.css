@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: rgb(186, 252, 192);
+}
+
+body {
+  font-family: "Comic Neue";
+}
+
+header {
+  border: 10px red;
+  border-style: groove;
+  border-radius: 25px;
+  width: 75%;
+  margin: auto;
+}
+
+header:hover {
+  height: 400px;
+}
+
+button {
+  background: yellow;
+  border: dotted;
+  margin: 5px;
+}
+button:hover {
+  background-color: red;
+}
+
+nav {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.animated_rainbow_1 {
+  font-size: 60px;
+  font-family: Arial Black, Gadget, sans-serif;
+  background-image: -webkit-linear-gradient(
+    left,
+    #f00,
+    #ff2b00,
+    #f50,
+    #ff8000,
+    #fa0,
+    #ffd500,
+    #ff0,
+    #d4ff00,
+    #af0,
+    #80ff00,
+    #5f0,
+    #2bff00,
+    #0f0,
+    #00ff2a,
+    #0f5,
+    #00ff80,
+    #0fa,
+    #00ffd5,
+    #0ff,
+    #00d5ff,
+    #0af,
+    #0080ff,
+    #05f,
+    #002aff,
+    #00f,
+    #2b00ff,
+    #50f,
+    #8000ff,
+    #a0f,
+    #d400ff,
+    #f0f,
+    #ff00d4,
+    #f0a,
+    #ff0080,
+    #f05,
+    #ff002b,
+    #f00
+  );
+  animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  text-align: center;
+}
+
+@keyframes animatedBackground_a {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -500px 0;
+  }
+}
+
+.sign-up {
+  border: 5px solid red;
+  background: white;
+  text-align: center;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 10px;
+  display: block;
+}
+
+.gif {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 2px 1px red;
+}
+a {
+  background-color: pink;
+}
+
+a:hover {
+  background-color: powderblue;
+}
+
+article {
+  border: 5px solid red;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.images {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+ol {
+  list-style: none;
+}
